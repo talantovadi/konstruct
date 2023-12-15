@@ -8,7 +8,7 @@
   </head>
   <body>
     <section class="hero">
-      <img class="hero__logo" src="./assets/src/projeco-logo.svg" alt="logo" />
+      <img id="hero" class="hero__logo" src="./assets/src/projeco-logo.svg" alt="logo" />
 
       <div>
         <h1 class="hero__title">PARTNER WITH KONSTUCT</h1>
@@ -27,11 +27,11 @@
         /></a>
         <nav class="header__menu">
           <ul class="header__list">
-            <li class="header__link"><a href="#">HOME</a></li>
-            <li class="header__link"><a href="#">ABOUT</a></li>
-            <li class="header__link"><a href="#">SERVICES</a></li>
-            <li class="header__link"><a href="#">WORK</a></li>
-            <li class="header__link"><a href="#">CONTACT</a></li>
+            <li class="header__link"><a href="#hero">HOME</a></li>
+            <li class="header__link"><a href="#about">ABOUT</a></li>
+            <li class="header__link"><a href="#services">SERVICES</a></li>
+            <li class="header__link"><a href="#work">WORK</a></li>
+            <li class="header__link"><a href="#get-in-touch">CONTACT</a></li>
           </ul>
         </nav>
       </div>
@@ -98,7 +98,7 @@
           </div>
         </div>
 
-        <div class="services__bottom">
+        <div class="services__bottom" id="work">
           <div class="card">
             <img src="./assets/src/services1.png" alt="icon" />
             <h3 class="card__title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
@@ -130,12 +130,12 @@
       </div>
     </section>
 
-    <section class="get-in-touch">
+    <section class="get-in-touch" id="get-in-touch">
       <h2 class="get-in-touch__title">
         Want to build <br />
         something amazing?
       </h2>
-      <button class="section__btn">GET IN TOUCH</button>
+      <button class="section__btn"><a href="#footer">GET IN TOUCH</a></button>
     </section>
 
     <section class="newsletter" id="newsletter">
