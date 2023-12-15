@@ -5,10 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Konstruct</title>
     <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="stylesheet" href="./assets/style/media.css" />
   </head>
   <body>
-    <section class="hero">
-      <img id="hero" class="hero__logo" src="./assets/src/projeco-logo.svg" alt="logo" />
+    <!-- <section class="hero">
+      <img
+        id="hero"
+        class="hero__logo"
+        src="./assets/src/projeco-logo.svg"
+        alt="logo"
+      />
 
       <div>
         <h1 class="hero__title">PARTNER WITH KONSTUCT</h1>
@@ -18,9 +24,9 @@
       </div>
 
       <a href="#" class="hero__scroll">Scroll down</a>
-    </section>
+    </section> -->
 
-    <header class="header" id="header">
+     <header class="header" id="header">
       <div class="container header__wrapper">
         <a href="" class="header__logo"
           ><img src="./assets/src/projeco-logo-black.svg" alt="logo"
@@ -34,10 +40,26 @@
             <li class="header__link"><a href="#get-in-touch">CONTACT</a></li>
           </ul>
         </nav>
+        <nav class="burger">
+          <input type="checkbox" id="burger" hidden>
+          <label for="burger" class="burger__btn">
+            <span class="burger__line"></span>
+          </label>
+          <div class="burger__menu">
+            <label class="burger__exit" for="burger"></label>
+            <ul class="burger__list">
+              <li class="burger__link"><a href="#hero">HOME</a></li>
+              <li class="burger__link"><a href="#about">ABOUT</a></li>
+              <li class="burger__link"><a href="#services">SERVICES</a></li>
+              <li class="burger__link"><a href="#work">WORK</a></li>
+              <li class="burger__link"><a href="#get-in-touch">CONTACT</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
 
-    <section class="about" id="about">
+    <!--<section class="about" id="about">
       <div class="container">
         <h2 class="about__title">Our story</h2>
         <div class="d-flex">
@@ -250,6 +272,6 @@
       <div class="footer__bottom">
         <h4 class="footer__copyright">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</h4>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
